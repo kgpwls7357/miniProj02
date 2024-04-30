@@ -6,5 +6,9 @@
     <insert id="save" parameterType="board">
         INSERT INTO board_table ( btitle, bcontent, bname) VALUES (#{btitle}, #{bcontent}, #{bname})
     </insert>
+
+    <select id="findAll" resultType="board">
+        SELECT * FROM board_table
+    </select>
 </mapper>
 
