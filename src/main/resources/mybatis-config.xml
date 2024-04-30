@@ -4,6 +4,5 @@
 <configuration>
     <typeAliases>
         <typeAlias type="com.example.board.dto.BoardDTO" alias="board"></typeAlias>
-<!--        <typeAlias type="com.example.springboot_mybatis.member.entity.Member" alias="memberEntity"></typeAlias>-->
     </typeAliases>
 </configuration>
